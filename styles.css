@@ -1,0 +1,100 @@
+/* ตั้งค่าพื้นฐาน */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5; /* สีพื้นหลังเหมือนใน Figma */
+  font-family: 'Prompt', sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* กำหนด Layout ตาม Figma */
+.layout {
+  width: 1440px;
+  height: 1024px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 80px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.menu a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #007bff;
+}
+
+/* Hero section */
+.hero {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 200px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 32px;
+  color: #555;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 16px 40px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 24px;
+  font-size: 14px;
+}

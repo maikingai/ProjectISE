@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+  background: var(--PrimaryBlue, #88B3FD);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  position: relative;
+  width: 600px;
+  height: 700px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.vector-1, .vector-2, .vector-201 {
+  position: absolute;
+  width: 100px;
+  opacity: 0.2;
+}
+
+.vector-1 { top: -40px; left: -40px; }
+.vector-2 { bottom: -30px; right: -30px; }
+.vector-201 { top: 50px; right: 50px; }
+
+.login2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #4A80F0;
+  margin-bottom: 30px;
+}
+
+.email, .password {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.input-email, .input-password {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.group-1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button {
+  background: #4A80F0;
+  color: #fff;
+  padding: 15px 60px;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #3b6ed8;
+}
+
+.do-not-have-an-account {
+  margin-top: 30px;
+  text-align: center;
+  color: #555;
+}
+
+.sign-up {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.sign-up a {
+  color: #4A80F0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign-up a:hover {
+  text-decoration: underline;
+}
