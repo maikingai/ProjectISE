@@ -29,10 +29,15 @@ body {
 }
 
 /* Header */
+<<<<<<< HEAD
+=======
+/* Header Layout */
+>>>>>>> 88a7bce (Add login and signup pages with background and navigation link)
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   padding: 32px 80px;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
@@ -41,6 +46,34 @@ body {
 .logo {
   font-size: 28px;
   font-weight: 700;
+=======
+  padding: 10px 40px;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Logo Container */
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+/* ปรับขนาดรูปภาพ Logo */
+.header .logo img {
+  width: 120px;     /* กำหนดความกว้าง */
+  height: auto;     /* รักษาอัตราส่วน */
+  max-height: 50px; /* จำกัดความสูง */
+  object-fit: contain; /* ไม่บิดเบี้ยว */
+  display: block;   /* ลบช่องว่างด้านล่างของ img */
+}
+
+/* Menu */
+.header .menu a {
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: bold;
+  margin-left: 20px;
+>>>>>>> 88a7bce (Add login and signup pages with background and navigation link)
 }
 
 .menu a {
